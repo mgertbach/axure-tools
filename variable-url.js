@@ -1,5 +1,4 @@
-<script>
-  console.log($("body").prevObject);
+console.log($("body").prevObject);
 var getURL = function() {
   return $("body").prevObject[0].URL;
 }
@@ -94,4 +93,3 @@ if (input.length >= 0) {
   input.remove();
 }
 $(container).prepend(urlHTML);
-</script>
