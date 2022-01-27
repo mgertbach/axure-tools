@@ -9,10 +9,7 @@ var input = $(parentbody).find("#pageURL");
 var urlHTML = "<div id='pageURL'> \n\
 <style> \n\
 #mainPanelContainer { \n\
-  position: absolute !important; \n\
-  top: 65px !important; \n\
-  left: 50% !important; \n\
-  transform: translateX(-50%) !important; \n\
+  top: 0 !important; \n\
 } \n\
 #pageInput { \n\
   margin: 10px; \n\
