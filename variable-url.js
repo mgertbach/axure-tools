@@ -63,6 +63,9 @@ var urlHTML = "<div id='pageURL'> \n\
 #pageInput button#pageReload:hover { \n\
   background-color: #111720; \n\
 } \n\
+#pageInput button#pageReload:disabled { \n\
+  opacity: .1; \n\
+} \n\
 #pageInput div#pageCopied { \n\
   background: #006B43; \n\
   padding: 5px 10px; \n\
@@ -90,7 +93,7 @@ var urlHTML = "<div id='pageURL'> \n\
   <input id='pageValue' type='text' value='"+getURL()+"'></input> \n\
   <div style='display: none;' id='pageCopied'>&#10004;</div> \n\
   <button id='pageCopy' onClick='var $txt = $(\"<textarea />\"); $txt.val($(\"#pageValue\").val()).css({ width: \"1px\", height: \"1px\" }).appendTo(\"body\"); $txt.select(); if (document.execCommand(\"copy\")) {$txt.remove();}$(\"#pageCopied\").show(200).delay(500).hide(200);'>copy</button> \n\
-  <button id='pageReload' onclick='$(\"body\").prevObject[0].location.href = \"https://rm2h68.axshare.com/x_welcome.html#globalvar=01\"; console.log($(\"body\").prevObject);'>reload</button> \n\
+  <button disabled id='pageReload' onclick='$(\"body\").prevObject[0].location.href = \"https://rm2h68.axshare.com/x_welcome.html#globalvar=01\"; console.log($(\"body\").prevObject);'>reload</button> \n\
 </div> \n\
 <div>";
 
