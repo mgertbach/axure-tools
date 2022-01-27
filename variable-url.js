@@ -8,6 +8,9 @@ var container = $(parentbody).find("#mainPanel");
 var input = $(parentbody).find("#pageURL");
 var urlHTML = "<div id='pageURL'> \n\
 <style> \n\
+#mainPanelContainer { \n\
+  top: 0 !important; \n\
+} \n\
 #pageInput { \n\
   margin: 10px; \n\
   padding: 10px; \n\
