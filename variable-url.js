@@ -1,5 +1,3 @@
-//test
-
 console.log($("body").prevObject);
 var getURL = function() {
   return $("body").prevObject[0].URL;
