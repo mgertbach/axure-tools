@@ -87,7 +87,7 @@ var urlHTML = "<div id='pageURL'> \n\
   margin-left: 10px; \n\
 } \n\
 #mainFrame { \n\
-  height: calc(100% - 75px); \n\
+  height: calc(100% - 75px) !important; \n\
 } \n\
 </style> \n\
 <div id='pageInput'> \n\
