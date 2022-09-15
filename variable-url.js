@@ -1,4 +1,4 @@
-//test
+//visit rebrand.ly to update the release version that is assigned to teh cdn link.
 
 console.log($("body").prevObject);
 var getURL = function() {
@@ -85,6 +85,9 @@ var urlHTML = "<div id='pageURL'> \n\
   border-bottom: 7px solid transparent; \n\
   clear: both; \n\
   margin-left: 10px; \n\
+} \n\
+#mainFrame { \n\
+  height: calc(100% - 75px); \n\
 } \n\
 </style> \n\
 <div id='pageInput'> \n\
